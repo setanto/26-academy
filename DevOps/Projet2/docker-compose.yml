@@ -1,4 +1,13 @@
 version: "3"
 
-service
-
+services:
+    26-academy-api-bracelet:
+        image: setanto/26-academy-api-bracelet
+        container_name: api-bracelet
+    26-academy-api-store-to-db:
+        image: setanto/26-academy-api-store-to-db
+        container_name: api-bracelet-store-to-db
+    26-academy-api-bracelet-mongodb:
+        image: mvertes/alpine-mongo
+        container_name: api-bracelet-mongodb
+        
