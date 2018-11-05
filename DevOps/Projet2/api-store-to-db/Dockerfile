@@ -8,4 +8,4 @@ RUN pip install -r /root/requirements.txt
 
 EXPOSE 80
 
-CMD [ "python", "/root/__main__.py", "-Aapi-bracelet", "-Hapi-bracelet-mongodb", "-Dbracelet" ]
+CMD [ "python", "/root/__main__.py", "-Aapi-bracelet", "-Hapi-bracelet-mongodb", "-Dbracelet", "-uadmin", "-papi-bracelet" ]

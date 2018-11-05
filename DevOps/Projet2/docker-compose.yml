@@ -8,6 +8,6 @@ services:
         image: setanto/26-academy-api-store-to-db
         container_name: api-bracelet-store-to-db
     26-academy-api-bracelet-mongodb:
-        image: mvertes/alpine-mongo
+        image: mongo:latest
         container_name: api-bracelet-mongodb
         
